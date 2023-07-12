@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-image: url("images/background.jpg");
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+    color: white;
+}
+
+#titre {
+   text-shadow:  2px 2px 4px black;
+}
+
+h1 i {
+    background-image: linear-gradient(to top right, #43B2EA, #B5D4F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.meteoDiv {
+    margin-top: 10%;
+}
+
+.meteoDiv, #myForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myForm input[type='submit'] {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#temperature {
+    margin: 25px;
+    font-weight: bold;
+}
+
+#nomVille {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.5em;
+}

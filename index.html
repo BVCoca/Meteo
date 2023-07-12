@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3f79e37ece.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Méteo</title>
+</head>
+
+<body>
+    <div class="meteoDiv">
+        <h1><span id="titre">Météo</span> <i class="fa-solid fa-temperature-three-quarters"></i></h1>
+        <form id="myForm">
+            <span id="error"></span>
+            <div>
+                <label for="ville">Ville:</label>
+                <input id="ville" type="text" name="ville" placeholder="Insérez la ville">
+            </div>
+            <input type="submit">
+        </form>
+        <span id="nomVille"></span>
+        <span id="temperature"></span>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
