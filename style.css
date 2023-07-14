@@ -15,7 +15,7 @@ h1 {
 }
 
 h1 i {
-    background-image: linear-gradient(to top right, #43B2EA, #B5D4F1);
+    background-image: linear-gradient(to top right, #43B2EA,#B5D4F1 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -48,4 +48,9 @@ label {
     font-weight: bold;
     margin-top: 10px;
     font-size: 1.5em;
+}
+
+#singe {
+    width: 170px;
+    height: 250px;
 }
